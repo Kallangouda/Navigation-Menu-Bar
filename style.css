@@ -12,7 +12,9 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background: #282a36;
+  /*background: #282a36;*/
+  background-color: green;
+  opacity: 0.3;
 }
 
 .navigation {
