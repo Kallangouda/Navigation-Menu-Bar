@@ -11,7 +11,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 101vh;
+  min-height: 99vh;
   /*background: #282a36;*/
   background-color: green;
   opacity: 0.3;
@@ -19,8 +19,8 @@ body {
 
 .navigation {
   position: relative;
-  width: 401px;
-  height: 71px;
+  width: 399px;
+  height: 72px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -31,14 +31,14 @@ body {
 .navigation ul {
   position: relative;
   display: flex;
-  width: 351px;
+  width: 349px;
 }
 
 .navigation ul li {
   position: relative;
   list-style: none;
-  width: 71px;
-  height: 71px;
+  width: 69px;
+  height: 72px;
   z-index: 1;
 }
 
@@ -48,7 +48,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  width: 101%;
+  width: 100%;
   text-align: center;
   font-weight: 501;
 }
@@ -56,9 +56,9 @@ body {
 .navigation ul li a .icon {
   position: relative;
   display: block;
-  font-size: 1.4em;
-  line-height: 74px;
-  transition: 0.6s;
+  font-size: 1.5em;
+  line-height: 75px;
+  transition: 0.5s;
   color: rgba(255, 255, 255, 0.5);
 }
 
@@ -74,7 +74,7 @@ body {
 .navigation ul li a .text {
   position: absolute;
   opacity: 0;
-  font-weight: 601;
+  font-weight: 600;
   font-size: 0.4em;
   color: #222327;
   transition: 0.5s;
